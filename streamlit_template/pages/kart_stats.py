@@ -7,7 +7,7 @@ st.sidebar.markdown("# Kart Configurations 🏎️")
 
 st.write("What Kart Configuration is Best?")
 
-df_kart = pd.read_csv('data/kart_stats.csv')
+df_kart = pd.read_csv('streamlit_template/data/kart_stats.csv')
 st.write(df_kart)
 
 df_kart = df_kart[['Body', 'Weight', 'Ground Speed', 'Air Speed', 'Water Handling', 'Air Handling']]
